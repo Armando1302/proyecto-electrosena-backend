@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.2" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence           http://xmlns.jcp.org/xml/ns/persistence/persistence_2_2.xsd">
+  <persistence-unit name="com.electrosena_facturacion_jar_0.0.1-SNAPSHOTPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>com.electrosena.facturacion.Persistence.Producto</class>
+    <class>com.electrosena.facturacion.Persistence.Cliente</class>
+    <class>com.electrosena.facturacion.Persistence.Compra</class>
+    <class>com.electrosena.facturacion.Persistence.CategoriaProducto</class>
+    <class>com.electrosena.facturacion.Persistence.Ciudad</class>
+    <class>com.electrosena.facturacion.Persistence.entities.Compra</class>
+    <class>com.electrosena.facturacion.Persistence.entities.Producto</class>
+    <class>com.electrosena.facturacion.Persistence.entities.CategoriaProducto</class>
+    <class>com.electrosena.facturacion.Persistence.entities.Cliente</class>
+    <class>com.electrosena.facturacion.Persistence.entities.Ciudad</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/postgres"/>
+      <property name="javax.persistence.jdbc.user" value="postgres"/>
+      <property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver"/>
+      <property name="javax.persistence.jdbc.password" value="130298"/>
+    </properties>
+  </persistence-unit>
+</persistence>
